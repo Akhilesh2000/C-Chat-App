@@ -1,0 +1,25 @@
+.messageBox{
+    background-color: aqua;
+    padding: 1vmax;
+    margin:1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    clear: both;
+}
+
+.right{
+    float: right;
+    background-color: rgb(134, 245, 112);
+    color: white;
+    text-align: right;
+}
+
+
+.left{
+    float: left;
+    background-color: rgb(13, 189, 22);
+    color: white;
+    text-align: left;
+}

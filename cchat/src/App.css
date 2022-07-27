@@ -1,12 +1,12 @@
-body{
-    margin: 0;
-}
+
 
 @media(max-aspect-ratio:7/10){
+    
     .JoinContainer{
         width:100% !important;
         height: 100%!important;
         border: 2px solid white;
+        margin: 0% !important;
     }
     .JoinContainer>img{
         width: 15vw!important;
@@ -84,5 +84,132 @@ body{
         font-size: 3vw !important;
         
     }
+
+}
+@media(max-aspect-ratio:9/10){
+
+    
+    .JoinContainer{
+        width:100% !important;
+        height: 100%!important;
+        border: 2px solid;
+    }
+    .JoinContainer>img{
+        width: 15vw!important;
+        height: 10vh!important;
+    }
+    .JoinContainer>h1{
+        font-size: 6vw!important;
+        width: 55vw !important;
+        text-align: center;
+        padding: 1vmax;
+        box-sizing: border-box;
+    }
+    #JoinInput{
+    
+        width: 55vw !important;;
+        padding: 4vw !important;
+       
+        font-size:4vw !important;
+        margin: 5vwv !important;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .JoinBtn{
+        width: 20vw !important;;
+        padding: 2vw !important;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin: 2vw;
+    }
+    .ChatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .Header{
+      
+        height: 10%;
+    }
+    .Header>h2{
+        margin: 8vw !important;
+        font-size: 6vw !important;
+    }
+    .Header img{
+       
+        margin: 6vw !important;
+        transform: scale(2);
+    }
+    .Header>img:hover{
+       transition: scale(3.2) !important;
+        cursor: pointer;
+    }
+    .ChatBox{
+        height: 90%;
+    }
+    .InputBox{
+        border-top:0.2vmax solid black;
+        height: 10% !important;
+
+    }
+    #ChatInput{
+        width:80%;
+        padding: 4vw !important;
+       font-size: 4vw !important;
+    }
+    .SendBtn:hover{
+        background-color: rgb(88, 230, 45);
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+    .messageBox{
+        background-color: aqua;
+        padding: 2.5vw !important;
+        margin:3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 3vw !important;
+        
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .JoinPage {
+      background-image: none;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+        .JoinPage {
+      background-image: none;
+      background-size: 0% !important;
+      
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+        .JoinPage {
+      background-image: none;
+      background-size: 0%;
+  }
+  .JoinContainer{
+    margin:0% !important;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+        .JoinPage {
+      background-image: none;
+      background-size: 0%;
+  }
 
 }

@@ -1,5 +1,6 @@
 .ChatPage{
-    background-color: rgb(31, 28, 28);
+    /*background-color: rgb(31, 28, 28);*/
+    background-image: url("https://wallpaperaccess.com/full/143765.jpg");
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -8,14 +9,14 @@
 }
 .ChatContainer{
     background-color: white;
-    height: 60%;
-    width: 50%;
+    height: 90% !important;
+    width: 30% !important;
 
 }
 .Header{
     /*border:0.02vmax solid rgb(0, 0, 0);*/
     background-color:rgb(135, 238, 39);
-    height: 15%;
+    height: 10% !important;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -37,24 +38,27 @@
 }
 .ChatBox{
     
-    height: 70%;
+    height: 80%;
     box-sizing: border-box;
+    background-image: url('https://qphs.fs.quoracdn.net/main-qimg-c344af83cd480e9ba8463b1e56125a90-lq');
 
 }
 .InputBox{
     border-top:0.2vmax solid black;
-    height: 15%;
+    height: 10%;
     box-sizing: border-box;
     display: flex;
-    
 }
 #ChatInput{
     width:80%;
-    border: 0.1px solid rgb(43, 42, 42);
-    background-color: white;
-    padding: 2vmax;
+    border: 0.1px solid rgb(0, 0, 0);
+    background-color: rgb(41, 41, 41);
+    padding: 2%;
     box-sizing: border-box;
     outline: none;
+    color: white;
+    font-size: larger;
+
 }
 .SendBtn{
     background-color: rgb(103, 240, 61);

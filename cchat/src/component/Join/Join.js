@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./Join.css";
 import {Link} from 'react-router-dom';
 import logo from "../../image/logo.png";
+//import back from "../../image/whatsappbackground.jpg";
 
 let user;
 
@@ -16,7 +17,7 @@ const Join = () => {
   return (
     
     <div className="JoinPage">
-        <div className='JoinContainer'>
+            <div className='JoinContainer'>
             <img src={logo} alt="logo"/>
             <h1>C Chat </h1>
             <input onChange={(e)=>setname (e.target.value)} placeholder='Enter User-ID' type="text" id="JoinInput"/>
